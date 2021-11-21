@@ -6,6 +6,10 @@
     --blue-dark: #071E3D;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -23,7 +27,6 @@ body{
     align-items: center;
     justify-content: right;
     padding: 20px;
-
     cursor: pointer;
 }
 
@@ -33,20 +36,108 @@ body{
 }
 .navbar > .toggle{
     background-color: var(--blue-white);
-    
+    display: none;
 }
 .navbar > .toggle .nav-link{
     height: 40px;
-    border-top: 2px solid var(--blue-light-second);
+    border-top: 2px solid var(--blue-dark);
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .navbar > .toggle > .nav-link > a{
     text-decoration: none;
     color: black;
     text-align: center;
+}
+
+/*Heading*/
+
+.heading > .big-heading{
+    font-size: 1.875rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px var(--blue-light-second);
+    padding: 15px;
+}
+/*box*/
+.main-info{
+    background-color: var(--blue-white);
+    margin: 15px 15px;
+    padding: 30px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/*example*/
+.example{
+    background-color: var(--blue-dark);
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+    padding: 15px 0px;
+}
+
+/*.example .step{
+    font-weight: bold;
+}*/
+
+/*Links*/
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 30px 20px;
+}
+
+.links > .link-dark, .links > .link-light, .notes{
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+/*link dark*/
+
+.links > .link-dark{
+    background-color: var(--blue-dark-second);
+}
+.links > .link-dark > .link{
+    color: white;
+}
+/*link light*/
+
+.links > .link-light{
+    background-color: var(--blue-light-second);
+}
+.links > .link-light > .link{
+    color: black;
+}
+
+/*notes*/ 
+.notes{
+    margin: 0px 20px;
+    text-align: center;
+    background-color:var(--neutral);
     
+}
+
+.notes > a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.notes a i{
+    font-size: 1.5rem;
+}
+
+/*footer*/
+.footer{
+    height: 70px;
+    background-color: var(--blue-white);
+    margin-top: 40px;
 }
