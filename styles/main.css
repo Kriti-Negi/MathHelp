@@ -1,3 +1,52 @@
+:root{
+    --blue-white: #CCFFF5;
+    --blue-light-second: #21E6C1;
+    --neutral: #278EA5;
+    --blue-dark-second: #1F4287;
+    --blue-dark: #071E3D;
+}
+
 body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*navbar*/
+.navbar{
+    width: 100%;
+    background-color: var(--neutral);
+}
+
+.navbar > .icon{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 20px;
+
+    cursor: pointer;
+}
+
+.navbar > .icon i{
+    font-size: 40px;
+    color: var(--blue-white);
+}
+.navbar > .toggle{
+    background-color: var(--blue-white);
+    
+}
+.navbar > .toggle .nav-link{
+    height: 40px;
+    border-top: 2px solid var(--blue-light-second);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar > .toggle > .nav-link > a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
     
 }
