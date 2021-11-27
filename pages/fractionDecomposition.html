@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <!--Custom Styles-->
         <link rel="stylesheet" href="../styles/main.css">
+        <link rel = "stylesheet" href = "../styles/fraction.css">
         <!--Javascript-->
         <script src = "../Scripts/toggle.js" charset="utf-8"></script>
         
@@ -54,6 +55,83 @@
                 </div>
             </div>
 
+            <div class = "example">
+                <h3 class = "example-title">Basic Example: fraction Decomposition</h3>
+                <div class = "frac">  
+                    <div class = "num">2x + 5</div>
+                    <div class = "den">x <div class = "exp"><p class = "numExpo">2</p></div> + 5x + 6</div>
+                </div>
+                <p class = "step">Find factors of the Denominator</p>
+                <div class = "equation">
+                    <div class = "basic-polynomial">x <div class = "exp"><p class = "numExpo">2</p></div> + 5x+ 6</div> 
+                    <span class = "equals">-></span>
+                    <div class = "basic-polynomial">(x+2) and (x+3)</div>
+                </div>
+                <p class = "step">Write out the factors as fractions added up</p>
+                <div class = "equation">
+                    <div class = "frac">  
+                        <div class = "num">2x +5</div>
+                        <div class = "den">x <div class = "exp"><p class = "numExpo">2</p></div> + 5x + 6</div>
+                    </div> 
+                    <div class = "equals">=</div>
+                    <div class = "equation">
+                        <div class = "frac">
+                            <div class = "num">A</div>
+                            <div class = "den">x+3</div>
+                        </div>
+                        <div class = "equals">+</div>
+                        <div class = "frac">
+                            <div class = "num">B</div>
+                            <div class = "den">x+2</div>
+                        </div>
+                    </div>
+                </div>
+                <p class = "step">Solve for A and B</p>
+                <div class = "equation">
+                    <div class = "frac">  
+                        <div class = "num">2x +5</div>
+                        <div class = "den">x <div class = "exp"><p class = "numExpo">2</p></div> + 5x + 6</div>
+                    </div>
+                    <div class = "equals">=</div>
+                    <div class = "frac">
+                        <div class = "num">A(x+2) + B(x+3)</div>
+                        <div class = "den">(x+2)(x+3)</div>
+                    </div>
+                </div>
+                <div class = "equation">
+                    <div class = "frac">
+                        <div class = "num">Ax + 2A + Bx + 3B</div>
+                        <div class = "den">x <div class = "exp"><p class = "numExpo">2</p></div> + 5x + 6</div>
+                    </div>
+                    <div class = "equals">=</div>
+                    <div class = "frac">
+                        <div class = "num">x(A+B) + (2A + 3B)</div>
+                        <div class = "den">x <div class = "exp"><p class = "numExpo">2</p></div> + 5x + 6</div>
+                    </div>
+                </div>
+                <p class ="step">This means that</p>
+                <div class = "basic-polynomial">2x = x (A + B) -> 2 = A + B</div>
+                <div class = "basic-polynomial">5 = 2A + 3B</div>
+                <p class = "step">Solve for A and B and plug it into the equation</p>
+                <p> We get A = 1 and B = 1, thus: </p>
+                <div class = "equation">
+                    <div class = "frac">  
+                        <div class = "num">2x +5</div>
+                        <div class = "den">x <div class = "exp"><p class = "numExpo">2</p></div> + 5x + 6</div>
+                    </div>
+                    <div class = "equals">=</div>
+                    <div class = "frac">
+                        <div class = "num">1</div>
+                        <div class = "den">x + 2</div>
+                    </div>
+                    <div class = "equals">+</div>
+                    <div class = "frac">
+                        <div class = "num">1</div>
+                        <div class = "den">x + 3</div>
+                    </div>
+                </div>
+
+            </div>
 
             <div class = "links">
                 <div class = "link-light">
