@@ -1,0 +1,28 @@
+:root{
+    --blue-white: #CCFFF5;
+    --blue-light-second: #21E6C1;
+    --neutral: #278EA5;
+    --blue-dark-second: #1F4287;
+    --blue-dark: #071E3D;
+}
+/*dropdown styles*/
+.problem{
+    margin: 20px;
+    background-color: var(--blue-white);
+}
+.dropdown-inner{
+    padding: 15px 30px;
+}
+.problem summary{
+    background-color: var(--blue-light-second);    
+    padding: 15px 15px;
+    border-radius: 8px;
+}
+.problem[open] summary{
+    border-radius: 8px 8px 0px 0px;
+}
+/*practice background fraction adjustments*/
+
+.problem .frac .num{
+    border-bottom: 1px solid black;
+}
