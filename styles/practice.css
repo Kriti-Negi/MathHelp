@@ -17,6 +17,7 @@
     background-color: var(--blue-light-second);    
     padding: 15px 15px;
     border-radius: 8px;
+    font-size: 1.1rem;
 }
 .problem[open] summary{
     border-radius: 8px 8px 0px 0px;

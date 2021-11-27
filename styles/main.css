@@ -57,7 +57,7 @@ body{
 .heading > .big-heading{
     font-size: 1.875rem;
     text-align: center;
-    text-shadow: 2px 2px 5px var(--blue-light-second);
+    text-shadow: 3px 3px 5px var(--blue-light-second);
     padding: 15px;
 }
 /*box*/
