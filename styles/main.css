@@ -18,7 +18,7 @@ body{
 /*navbar*/
 .navbar{
     width: 100%;
-    background-color: var(--neutral);
+    background-color: var(--blue-dark);
 }
 
 .navbar > .icon{
@@ -32,7 +32,7 @@ body{
 
 .navbar > .icon i{
     font-size: 40px;
-    color: var(--blue-white);
+    color: var(--blue-light-second);
 }
 .navbar > .toggle{
     background-color: var(--blue-white);
