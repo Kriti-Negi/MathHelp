@@ -1,0 +1,37 @@
+/*fraction*/
+.frac{
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+.num{
+    border-bottom: 1px solid white;
+    margin-bottom: 4px;
+}
+/*exponent*/
+.exp{
+    padding: 0px 2px 2px;
+    font-size: 0.7rem;
+    display: inline-block;
+    position: relative; 
+    height: 20px;
+}
+.numExpo{
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+}
+/*equation*/
+.equation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.equals{
+    padding: 5px;
+}
+/*polynomials*/
+.basic-polynomial{
+    font-size: 1.2rem;
+}
